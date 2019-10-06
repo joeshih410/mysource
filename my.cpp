@@ -31,4 +31,3 @@ void pickup(int f[],int to[],int len,int start,int end){
 		to[cnt++]=f[i];
 	}
 }
-© 2019 GitHub, Inc.
