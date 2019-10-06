@@ -1,8 +1,9 @@
 #include <iostream>
 #include <string>
 #include <stblib.h>
-void printout(string str){
-	cout<<str;//output some text
+template <typemane T>
+void printout(T thing){
+	cout<<thing;//output some thing
 }
 int randint(int mini,int maxi){
 	//create random number between maxi and mini
